@@ -1,0 +1,1 @@
+export class Entity{constructor(x,y){this.x=x;this.y=y;this.width=28;this.height=28;this.hp=this.maxHp=1;this.dead=false}takeDamage(d){this.hp-=d;if(this.hp<=0)this.dead=true}}
